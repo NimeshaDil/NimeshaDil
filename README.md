@@ -2,7 +2,6 @@
 
 Welcome to my GitHub profile! I'm passionate about leveraging automation and infrastructure as code to streamline development processes and ensure scalable, reliable, secure and efficient systems. With a background in DevOps, I thrive in dynamic environments where collaboration and continuous improvement are key.
 
-![DevOps](https://miro.medium.com/v2/resize:fit:679/1*DluPjzT_eTUFdzHCI7JBZA.gif)
 
 ## 🔧 Technologies & Tools
 
