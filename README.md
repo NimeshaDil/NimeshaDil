@@ -34,8 +34,6 @@ I'm always open to collaboration and learning from others. If you share similar 
 
 ## 📈 GitHub Stats
 
-!## 📈 GitHub Stats
-
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=NimeshaDil&show_icons=true&hide=contribs,issues)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NimeshaDil&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
