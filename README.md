@@ -31,7 +31,7 @@ I believe in continuous learning, and I'm currently expanding my knowledge in:
 I'm always open to collaboration and learning from others. If you share similar interests or have projects that align with my skills, feel free to reach out.
 
 - 💬 [LinkedIn](https://www.linkedin.com/in/nimesha-dilshan-6103a0191/)
-- ✉️ [Gmail](nimeshadilshanpm@gmail.com)
+- ✉️ [Email Me](mailto:nimeshadilshanpm@gmail.com)
 
 ## 📈 GitHub Stats
 
