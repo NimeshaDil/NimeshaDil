@@ -8,10 +8,11 @@ Welcome to my GitHub profile! I'm passionate about leveraging automation and inf
 - **Containerization:** Docker, Kubernetes, Helm
 - **CI/CD:** Jenkins, GitHub Actions, Jenkins-x, ArgoCD
 - **Cloud Platforms:** AWS, GCP
-- **Monitoring and Logging:** Prometheus, Grafana, ELK Stack
+- **Monitoring and Logging:** Prometheus, Grafana, ELK Stack, Google Cloud's operations suite
 - **Version Control:** Git
 - **Scripting:** Bash, Python
 - **Server Administration:** Linux, Windows
+- **Database:** MySQL
 
 ## 🚀 What I'm currently working on
 
