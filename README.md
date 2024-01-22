@@ -2,6 +2,8 @@
 
 Welcome to my GitHub profile! I'm passionate about leveraging automation and infrastructure as code to streamline development processes and ensure scalable, reliable, secure and efficient systems. With a background in DevOps, I thrive in dynamic environments where collaboration and continuous improvement are key.
 
+![DevOps](https://miro.medium.com/v2/resize:fit:679/1*DluPjzT_eTUFdzHCI7JBZA.gif)
+
 ## 🔧 Technologies & Tools
 
 - **Automation:** Terraform, Ansible, Bash
@@ -51,6 +53,5 @@ I'm always open to collaboration and learning from others. If you share similar 
 - [Title of Blog Post 2](link-to-blog-post-2) -->
 <!-- BLOG-POST-LIST:END -->
 
-#### Thanks for visiting! ✨
 
 ![GIF](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3f6c4afc-7680-42d7-9859-ce7d521c2f37/dcei9fh-e06b7871-ec40-4b6f-a30e-7ba56b0ca82d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNmNmM0YWZjLTc2ODAtNDJkNy05ODU5LWNlN2Q1MjFjMmYzN1wvZGNlaTlmaC1lMDZiNzg3MS1lYzQwLTRiNmYtYTMwZS03YmE1NmIwY2E4MmQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.m0pGw0Y-8PZLUP-MIIbkKwSBfXX6F0onvlpA3qbruVs)
