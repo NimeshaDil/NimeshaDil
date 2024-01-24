@@ -60,4 +60,6 @@ I'm always open to collaboration and learning from others. If you share similar 
 <!-- BLOG-POST-LIST:END -->
 
 
-![GIF](https://media.tenor.com/bd4XoFgAyjcAAAAC/johnny-depp-jack-sparrow.gif)
+<p align="center">
+  <img src="https://media.tenor.com/bd4XoFgAyjcAAAAC/johnny-depp-jack-sparrow.gif" alt="GIF">
+</p>
