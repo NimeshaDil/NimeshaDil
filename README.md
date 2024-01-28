@@ -46,7 +46,7 @@ I'm always open to collaboration and learning from others. If you share similar 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NimeshaDil&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=NimeshaDil)](https://github.com/DenverCoder1/github-readme-streak-stats)
+<!-- [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=NimeshaDil)](https://github.com/DenverCoder1/github-readme-streak-stats) -->
 
 <!-- [![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=NimeshaDil)](https://github.com/ryo-ma/github-profile-trophy) -->
 
