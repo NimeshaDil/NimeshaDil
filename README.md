@@ -39,6 +39,8 @@ I'm always open to collaboration and learning from others. If you share similar 
 
 - 💬 [LinkedIn](https://www.linkedin.com/in/nimesha-dilshan-6103a0191/)
 - ✉️ [Email Me](mailto:nimeshadilshanpm@gmail.com)
+- ✍️ [Medium](https://medium.com/@pmndilshan)
+
 
 ## 📈 GitHub Stats
 
@@ -60,3 +62,4 @@ I'm always open to collaboration and learning from others. If you share similar 
 <!-- BLOG-POST-LIST:END -->
 
 ![gif](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3f6c4afc-7680-42d7-9859-ce7d521c2f37/dcei9fh-e06b7871-ec40-4b6f-a30e-7ba56b0ca82d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNmNmM0YWZjLTc2ODAtNDJkNy05ODU5LWNlN2Q1MjFjMmYzN1wvZGNlaTlmaC1lMDZiNzg3MS1lYzQwLTRiNmYtYTMwZS03YmE1NmIwY2E4MmQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.m0pGw0Y-8PZLUP-MIIbkKwSBfXX6F0onvlpA3qbruVs)
+
