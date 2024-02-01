@@ -24,6 +24,7 @@ Currently, I am focused on optimizing CI/CD pipelines, containerization, impleme
 - [Google Cloud Certified Professional Cloud Developer](https://www.credential.net/605127b0-4664-4860-99d0-f5ce1b23de34): Google
 - [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/e08f80b4-3803-485b-b702-65024e20c15c?source=linked_in_profile): Amazon Web Services (AWS)
 - [Red Hat Certified System Administrator (RHCSA)](https://rhtapps.redhat.com/certifications/badge/verify/QIS37AJFTBF2NM3JYC64ZE6GWEAEQU3CUPSQX2KSDXT6RW46LQ3T7ULZ55KZZ56SKO7EQ3ETTLYZQ4U5NQYTCNA62RUWOCM34WWBUYQ=): Red Hat
+- Certified Kubernetes Administrator (CKA) [Reading]
 
 
 ## 🌱 I'm currently learning
