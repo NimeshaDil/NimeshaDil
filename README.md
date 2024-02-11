@@ -1,6 +1,6 @@
 # Hi there! 👋 I'm Nimesha Dilshan Premaraja, a DevOps Engineer 🚀
 
-Welcome to my GitHub profile! I'm passionate about leveraging automation and infrastructure as code to streamline development processes and ensure scalable, reliable, secure and efficient systems. With a background in DevOps, I thrive in dynamic environments where collaboration and continuous improvement are key.
+Welcome to my GitHub profile! I'm passionate about leveraging automation, security, CI/CD, container orchestration, networking, database and infrastructure as code to streamline development processes and ensure scalable, reliable, secure and efficient systems. With a background in DevOps, I thrive in dynamic environments where collaboration and continuous improvement are key.
 
 
 ## 🔧 Technologies & Tools
