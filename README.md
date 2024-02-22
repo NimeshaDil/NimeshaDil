@@ -17,7 +17,7 @@ Welcome to my GitHub profile! I'm passionate about leveraging automation, securi
 
 ## 🚀 What I'm currently working on
 
-Currently, I am focused on optimizing CI/CD pipelines, containerization, implementing infrastructure as code, cloud-based migartions and ensuring the security, reliability and scalability of cloud-based environments. I'm always looking for new challenges and opportunities to improve and innovate.
+Currently, I am focused on optimizing CI/CD pipelines, containerization, implementing infrastructure as code, cloud-based migartions and ensuring the security, reliability and scalability of cloud-based environments.
 
 ## 🏆 Certifications
 
