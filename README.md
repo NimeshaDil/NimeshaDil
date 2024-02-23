@@ -10,7 +10,7 @@ Welcome to my GitHub profile! I'm passionate about leveraging configuration mana
 - **CI/CD:** Jenkins, GitHub Actions, Jenkins-x, ArgoCD
 - **Cloud Platforms:** AWS, GCP
 - **Monitoring and Logging:** Prometheus, Grafana, ELK Stack, Google Cloud's operations suite
-- **Version Control:** Git
+- **Version Control:** GitHub, Bitbucket
 - **Scripting:** Bash, Python
 - **Server Administration:** Linux, Windows
 - **Database:** MySQL
