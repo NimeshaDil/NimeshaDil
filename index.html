@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimesha Premaraja | DevOps Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* --- Global Styles --- */
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        header, section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h1, h2, h3 {
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        h2 {
+            font-size: 2em;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+
+        /* --- Navigation --- */
+        nav {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            font-weight: 700;
+        }
+
+        /* --- Sections --- */
+        .projects, .skills, .contact {
+            background-color: white;
+            border-radius: 8px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .project-card, .skill-card {
+            background-color: #f0f8ff;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .project-card h3, .skill-card h3 {
+            margin-top: 0;
+        }
+
+        /* --- Footer --- */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+        }
+
+        /* --- Responsive --- */
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <header id="about">
+        <h1>Nimesha Premaraja</h1>
+        <h3>DevOps Engineer | AWS • GCP • Kubernetes • Terraform • CI/CD • Linux</h3>
+        <p>
+            Experienced DevOps Engineer, with 5 years of hands-on experience in software development and streamlining delivery processes, as demonstrated by a successful track record. Specializing in Cloud computing (AWS & GCP), Infrastructure as Code, CI/CD, Containerization and Orchestration, Monitoring and Logging, Networking, Database management and automation scripting. 
+        </p>
+        <p>
+            <strong>Awarded as the DevOps Engineer of the Year (2024)</strong> at Codimite Pvt Ltd for delivering impactful results in platform automation, cloud cost reduction, secured and scalable infrastructure configuration. I'm passionate about mentorship, and solving real-world infrastructure problems with latest DevOps technologies.
+        </p>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Terraform AWS Infrastructure</h3>
+            <p>Designed a multi-region VPC, EC2, ALB, and RDS infrastructure using Terraform. Automated provisioning and deployment.</p>
+            <p><a href="https://github.com/yourusername/terraform-aws-infra" target="_blank">View on GitHub</a></p>
+        </div>
+
+        <div class="project-card">
+            <h3>Kubernetes Microservices Deployment</h3>
+            <p>Deployed containerized applications on Kubernetes using Helm charts, implemented HPA, ConfigMaps, and Secrets.</p>
+            <p><a href="https://github.com/yourusername/kubernetes-microservices" target="_blank">View on GitHub</a></p>
+        </div>
+
+        <div class="project-card">
+            <h3>CI/CD Pipeline Automation</h3>
+            <p>Built automated pipelines using GitHub Actions and Jenkins for build, test, security scanning, and deployment to Kubernetes.</p>
+            <p><a href="https://github.com/yourusername/ci-cd-pipeline-demo" target="_blank">View on GitHub</a></p>
+        </div>
+
+        <div class="project-card">
+            <h3>Observability Stack</h3>
+            <p>Implemented Prometheus & Grafana monitoring, logging with ELK, and alerting for improved system reliability.</p>
+            <p><a href="https://github.com/yourusername/observability-stack" target="_blank">View on GitHub</a></p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills & Certifications</h2>
+        <div class="skill-card">
+            <h3>Cloud & DevOps</h3>
+            <p>AWS, Azure, GCP, Kubernetes, OpenShift, Docker, Terraform, Ansible</p>
+        </div>
+        <div class="skill-card">
+            <h3>CI/CD & Automation</h3>
+            <p>Jenkins, GitHub Actions, GitLab CI, Helm, Prometheus, Grafana</p>
+        </div>
+        <div class="skill-card">
+            <h3>Certifications</h3>
+            <ul>
+                <li>AWS Certified Solutions Architect – Associate</li>
+                <li>Certified Kubernetes Administrator (CKA)</li>
+                <li>Google Certified Professional Cloud Architect</li>
+                <li>Red Hat Certified System Administrator (RHCSA)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:pmndilshan@gmail.com">pmndilshan@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/nimesha-premaraja-6103a0191" target="_blank">Nimesha Premaraja</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Nimesha Premaraja | DevOps Engineer
+    </footer>
+
+</body>
+</html>
