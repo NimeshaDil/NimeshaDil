@@ -1,300 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nimesha Premaraja | DevOps Engineer</title>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-<style>
-    /* --- Global Styles --- */
-    body {
-        margin: 0;
-        font-family: 'Roboto', sans-serif;
-        background-color: #f5f5f5;
-        color: #333;
-        display: flex;
-        min-height: 100vh;
-    }
-
-    a {
-        color: #007bff;
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-
-    /* --- Sidebar Navigation --- */
-    nav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 250px;
-        height: 100vh;
-        background-color: #1c1c4c;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 30px 20px;
-        box-sizing: border-box;
-        box-shadow: 2px 0 10px rgba(0,0,0,0.1);
-    }
-
-    nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    nav ul li {
-        margin-bottom: 20px;
-    }
-
-    nav a {
-        color: white;
-        font-weight: 700;
-        font-size: 1.05em;
-        display: block;
-        padding: 8px 12px;
-        border-radius: 6px;
-        transition: background-color 0.3s, transform 0.2s;
-    }
-
-    nav a:hover {
-        background-color: rgba(255,255,255,0.2);
-        transform: translateX(5px);
-    }
-
-    .nav-contact {
-        margin-top: auto;
-        font-weight: 400;
-        font-size: 0.9em;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-    .nav-contact span {
-        display: inline-flex;
-        align-items: center;
-        gap: 6px; /* spacing between icon and link */
-    }
-
-    .nav-contact a {
-        color: #fff;
-        text-decoration: underline;
-        font-weight: 400;
-        font-family: 'Roboto', Arial, sans-serif;
-        letter-spacing: 0.01em;
-    }
-
-    /* --- Main Content --- */
-    main {
-        margin-left: 240px;
-        padding: 40px 30px;
-        flex: 1;
-    }
-
-    header {
-        margin-bottom: 50px;
-    }
-
-    h1 {
-        font-size: 2.8em;
-        margin-bottom: 10px;
-        color: #0d6efd;
-    }
-
-    h3 {
-        font-size: 1.2em;
-        font-weight: 500;
-        color: #555;
-        margin-bottom: 20px;
-    }
-
-    p {
-        margin-bottom: 15px;
-        line-height: 1.6;
-    }
-
-    /* --- Sections --- */
-    section {
-        margin-bottom: 50px;
-    }
-
-    h2 {
-        font-size: 2em;
-        margin-bottom: 20px;
-        border-bottom: 3px solid #0d6efd;
-        display: inline-block;
-        padding-bottom: 5px;
-    }
-
-    .projects, .skills {
-        background-color: #fff;
-        padding: 30px;
-        border-radius: 12px;
-        box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-    }
-
-    .project-card, .skill-card {
-        background-color: #f0f8ff;
-        border-radius: 8px;
-        padding: 20px;
-        margin-bottom: 20px;
-        transition: transform 0.2s, box-shadow 0.2s;
-    }
-
-    .project-card:hover, .skill-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 8px 18px rgba(0,0,0,0.15);
-    }
-
-    .project-card h3, .skill-card h3 {
-        margin-top: 0;
-        color: #0d6efd;
-    }
-
-    /* --- Footer --- */
-    footer {
-        text-align: center;
-        padding: 20px;
-        background-color: #0d6efd;
-        color: white;
-        border-top-left-radius: 12px;
-        border-top-right-radius: 12px;
-        margin-top: 40px;
-    }
-
-    /* --- Responsive --- */
-    @media (max-width: 900px) {
-        body {
-            flex-direction: column;
-        }
-
-        nav {
-            position: relative;
-            width: 100%;
-            height: auto;
-            flex-direction: row;
-            justify-content: space-around;
-            padding: 15px 0;
-            box-shadow: none;
-        }
-
-        main {
-            margin-left: 0;
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 2.2em;
-        }
-
-        h2 {
-            font-size: 1.8em;
-        }
-    }
-</style>
+  <meta charset="UTF-8" />
+  <title>Nimesha Premaraja | DevOps Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-<!-- Sidebar Navigation -->
-<nav>
-    <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-    </ul>
-        <div class="nav-contact">
-            <strong style="font-size:1.6em; margin-bottom:8px; color:#fff;">Contact Me</strong>
-        <span>📧 <a href="mailto:pmndilshan@gmail.com">pmndilshan@gmail.com</a></span>
-        <span>🔗 <a href="https://www.linkedin.com/in/nimesha-premaraja-6103a0191" target="_blank">LinkedIn</a></span>
-        <span>💻 <a href="https://github.com/NimeshaDil" target="_blank">GitHub</a></span>
-    </div>
-</nav>
+<header>
+  <h1>Nimesha Premaraja</h1>
+  <p class="title-role">DevOps Engineer</p>
+  <p>AWS • GCP • Terraform • Kubernetes • CI/CD • Monitoring</p>
+  <div class="links">
+    <a href="https://github.com/NimeshaDil" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/nimesha-premaraja-6103a0191" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:pmndilshan@gmail.com" target="_blank" rel="noopener"><i class="fas fa-envelope"></i></a>
+  </div>
+</header>
 
-<!-- Main Content -->
-<main>
-    <!-- About Section -->
-    <header id="about">
-        <h1>Nimesha Premaraja</h1>
-        <h3>DevOps Engineer | AWS • GCP • Kubernetes • Terraform • CI/CD • Linux</h3>
-        <p>
-            Experienced DevOps Engineer with 5 years of hands-on experience in software
-            development and streamlining delivery processes. Specialized in cloud computing
-            (AWS & GCP), Infrastructure as Code, CI/CD automation, containerization, orchestration,
-            monitoring, logging, networking, and automation scripting.
-        </p>
-        <p>
-            <strong>Awarded DevOps Engineer of the Year (2024)</strong> at Codimite Pvt Ltd for
-            delivering impactful results in platform automation, cloud cost optimization,
-            and secure, scalable infrastructure design. Passionate about mentorship and
-            solving real-world infrastructure challenges.
-        </p>
-    </header>
+<section class="about">
+  <h2>About Me</h2>
+  <p>
+    Experienced DevOps Engineer with 5 years of hands-on experience in software development and streamlining delivery processes. Specialized in cloud computing (AWS & GCP), Infrastructure as Code, CI/CD automation, containerization, orchestration,monitoring, logging, networking, and automation scripting.
+  </p>
+  <p>
+    <strong>Awarded DevOps Engineer of the Year (2024)</strong> at Codimite Pvt Ltd for
+    delivering impactful results in platform automation, cloud cost optimization,
+    and secure, scalable infrastructure design. Passionate about mentorship and
+    solving real-world infrastructure challenges.
+  </p>
+</section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <h2>Projects</h2>
-        <div class="project-card">
-            <h3>Terraform AWS Infrastructure</h3>
-            <p>
-                Designed and automated a multi-region AWS infrastructure using Terraform,
-                improving deployment consistency and reducing manual provisioning.
-            </p>
-        </div>
-        <div class="project-card">
-            <h3>Kubernetes Microservices Deployment</h3>
-            <p>
-                Deployed containerized applications on Kubernetes using Helm, HPA,
-                ConfigMaps, and Secrets for scalable workloads.
-            </p>
-        </div>
-        <div class="project-card">
-            <h3>CI/CD Pipeline Automation</h3>
-            <p>
-                Built CI/CD pipelines with GitHub Actions and Jenkins, integrating testing,
-                security scanning, and Kubernetes deployments.
-            </p>
-        </div>
-        <div class="project-card">
-            <h3>Observability Stack</h3>
-            <p>
-                Implemented monitoring and alerting using Prometheus and Grafana,
-                improving system reliability and visibility.
-            </p>
-        </div>
-    </section>
+<section class="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li><strong>Cloud Platforms:</strong> AWS, GCP</li>
+    <li><strong>Automation:</strong> Terraform, Ansible, Bash, Python</li>
+    <li><strong>Containerization:</strong> Docker, Kubernetes, Helm</li>
+    <li><strong>CI/CD:</strong> GitHub Actions, Jenkins, ArgoCD</li>
+    <li><strong>Monitoring and Logging:</strong> Prometheus, Grafana, ELK Stack, Google Cloud's operations suite</li>
+    <li><strong>Version Control:</strong> GitHub, Bitbucket</li>
+    <li><strong>Scripting:</strong> Bash, Python</li>
+    <li><strong>Server Administration:</strong> Linux, Windows</li>
+    <li><strong>Database:</strong> MySQL</li>
+  </ul>
+</section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <h2>Skills & Certifications</h2>
-        <div class="skill-card">
-            <h3>Cloud & DevOps</h3>
-            <p>AWS, GCP, Azure, Kubernetes, OpenShift, Docker, Terraform, Ansible</p>
-        </div>
-        <div class="skill-card">
-            <h3>CI/CD & Observability</h3>
-            <p>GitHub Actions, Jenkins, GitLab CI, Helm, Prometheus, Grafana</p>
-        </div>
-        <div class="skill-card">
-            <h3>Certifications</h3>
-            <ul>
-                <li>AWS Certified Solutions Architect – Associate</li>
-                <li>Certified Kubernetes Administrator (CKA)</li>
-                <li>Google Professional Cloud Architect</li>
-                <li>Red Hat Certified System Administrator (RHCSA)</li>
-            </ul>
-        </div>
-    </section>
+<section class="projects">
+  <h2>Projects</h2>
 
-    <!-- Footer -->
-    <footer>
-        &copy; 2025 Nimesha Premaraja | DevOps Engineer
-    </footer>
-</main>
+  <div class="project">
+    <h3>CI/CD Pipeline for Microservices</h3>
+    <p>Built a GitHub Actions pipeline deploying Dockerized services to Kubernetes using Helm.</p>
+    <a href="https://github.com/yourusername/cicd-k8s">View on GitHub</a>
+  </div>
+
+  <div class="project">
+    <h3>Terraform AWS Infrastructure</h3>
+    <p>Provisioned VPC, EKS, ALB, IAM using Terraform modules.</p>
+    <a href="https://github.com/yourusername/terraform-aws">View on GitHub</a>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2025 Nimesha Premaraja</p>
+</footer>
+
 </body>
 </html>
