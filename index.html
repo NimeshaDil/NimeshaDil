@@ -22,44 +22,55 @@
 <section class="about">
   <h2>About Me</h2>
   <p>
-    Experienced DevOps Engineer with 5 years of hands-on experience in software development and streamlining delivery processes. Specialized in cloud computing (AWS & GCP), Infrastructure as Code, CI/CD automation, containerization, orchestration,monitoring, logging, networking, and automation scripting.
+    DevOps Engineer with 5 years of hands-on experience designing, automating, and operating scalable, highly available cloud infrastructure. Strong expertise in AWS and GCP, Infrastructure as Code, CI/CD pipelines, containerization and orchestration, as well as monitoring, logging, networking, and automation scripting.
   </p>
   <p>
-    <strong>Awarded DevOps Engineer of the Year (2024)</strong> at Codimite Pvt Ltd for
-    delivering impactful results in platform automation, cloud cost optimization,
-    and secure, scalable infrastructure design. Passionate about mentorship and
-    solving real-world infrastructure challenges.
+    Recognized as <strong>DevOps Engineer of the Year (2024)</strong> at Codimite Pvt Ltd for delivering measurable impact through platform automation, cloud cost optimization, and secure, resilient infrastructure design. Passionate about continuous improvement, knowledge sharing, and solving complex real-world infrastructure challenges.
   </p>
 </section>
 
 <section class="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li><strong>Cloud Platforms:</strong> AWS, GCP</li>
-    <li><strong>Automation:</strong> Terraform, Ansible, Bash, Python</li>
-    <li><strong>Containerization:</strong> Docker, Kubernetes, Helm</li>
-    <li><strong>CI/CD:</strong> GitHub Actions, Jenkins, ArgoCD</li>
-    <li><strong>Monitoring and Logging:</strong> Prometheus, Grafana, ELK Stack, Google Cloud's operations suite</li>
-    <li><strong>Version Control:</strong> GitHub, Bitbucket</li>
-    <li><strong>Scripting:</strong> Bash, Python</li>
-    <li><strong>Server Administration:</strong> Linux, Windows</li>
-    <li><strong>Database:</strong> MySQL</li>
-  </ul>
+  <h2 id="skills-toggle" style="cursor:pointer;user-select:none;">
+    Skills <span id="skills-arrow" style="font-size:0.8em;">▼</span>
+  </h2>
+  <div id="skills-list" style="margin-top:0;">
+    <table class="skills-table">
+      <tbody>
+        <tr><th>Cloud Platforms</th><td>AWS, GCP</td></tr>
+        <tr><th>Automation</th><td>Terraform, Ansible</td></tr>
+        <tr><th>Containerization</th><td>Docker, Kubernetes, Helm</td></tr>
+        <tr><th>CI/CD</th><td>GitHub Actions, Jenkins, ArgoCD</td></tr>
+        <tr><th>Monitoring & Logging</th><td>Prometheus, Grafana, ELK Stack</td></tr>
+        <tr><th>Version Control</th><td>GitHub, Bitbucket</td></tr>
+        <tr><th>Scripting</th><td>Bash, Python</td></tr>
+        <tr><th>Server Administration</th><td>Linux (RHEL), Windows</td></tr>
+        <tr><th>Networking</th><td>TCP/IP, DNS, DHCP, VPN, HTTP/S, VPC</td></tr>
+        <tr><th>Database</th><td>MySQL</td></tr>
+      </tbody>
+    </table>
+  </div>
 </section>
 
 <section class="projects">
   <h2>Projects</h2>
 
   <div class="project">
-    <h3>CI/CD Pipeline for Microservices</h3>
-    <p>Built a GitHub Actions pipeline deploying Dockerized services to Kubernetes using Helm.</p>
-    <a href="https://github.com/yourusername/cicd-k8s">View on GitHub</a>
+    <h3 class="project-toggle" style="cursor:pointer;user-select:none;">
+      CI/CD Pipeline for Microservices <span class="project-arrow" style="font-size:0.8em;">▼</span>
+    </h3>
+    <div class="project-details" style="display:none;">
+      <p>Built a GitHub Actions pipeline deploying Dockerized services to Kubernetes using Helm.</p>
+      <a href="https://github.com/yourusername/cicd-k8s">View on GitHub</a>
+    </div>
   </div>
 
   <div class="project">
-    <h3>Terraform AWS Infrastructure</h3>
-    <p>Provisioned VPC, EKS, ALB, IAM using Terraform modules.</p>
-    <a href="https://github.com/yourusername/terraform-aws">View on GitHub</a>
+    <h3 class="project-toggle" style="cursor:pointer;user-select:none;">
+      Setup Fortinet (fortigate) IPS solutions in Google Cloud <span class="project-arrow" style="font-size:0.8em;">▼</span>
+    </h3>
+    <div class="project-details" style="display:none;">
+      <p>Designed and implemented a Fortinet FortiGate IPS solution on Google Cloud Platform to inspect, detect, and block malicious ingress and egress traffic for Kubernetes workloads. The solution was integrated with the Kubernetes environment to provide deep packet inspection and threat prevention without impacting application performance. Network traffic flows were carefully architected to ensure high availability, fault tolerance, and minimal latency. Security policies and IPS signatures were configured to protect workloads from common vulnerabilities and attack vectors. The setup followed cloud-native networking and security best practices, ensuring secure communication between services while maintaining scalability. This project demonstrates hands-on experience in cloud security, Kubernetes networking, and enterprise-grade traffic inspection.</p>
+    </div>
   </div>
 
 </section>
@@ -68,5 +79,33 @@
   <p>© 2025 Nimesha Premaraja</p>
 </footer>
 
-</body>
+<script>
+  const skillsToggle = document.getElementById('skills-toggle');
+  const skillsList = document.getElementById('skills-list');
+  const skillsArrow = document.getElementById('skills-arrow');
+  skillsToggle.addEventListener('click', () => {
+    if (skillsList.style.display === 'none') {
+      skillsList.style.display = '';
+      skillsArrow.textContent = '▼';
+    } else {
+      skillsList.style.display = 'none';
+      skillsArrow.textContent = '▲';
+    }
+  });
+
+  // Collapsible projects
+  document.querySelectorAll('.project-toggle').forEach((toggle, idx) => {
+    toggle.addEventListener('click', function() {
+      const details = this.parentElement.querySelector('.project-details');
+      const arrow = this.querySelector('.project-arrow');
+      if (details.style.display === 'none') {
+        details.style.display = '';
+        arrow.textContent = '▲';
+      } else {
+        details.style.display = 'none';
+        arrow.textContent = '▼';
+      }
+    });
+  });
+</script>
 </html>

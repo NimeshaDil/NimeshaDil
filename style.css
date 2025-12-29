@@ -1,3 +1,41 @@
+/* Skills Table Styles */
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5em;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.skills-table th, .skills-table td {
+  padding: 0.6em 1em;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+  font-weight: 400;
+}
+.skills-table th {
+  background: #f7f7f7;
+  font-weight: 600;
+  width: 200px;
+  color: #2d3a4a;
+}
+.skills-table tr:last-child td, .skills-table tr:last-child th {
+  border-bottom: none;
+}
+@media (max-width: 600px) {
+  .skills-table th, .skills-table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .skills-table tr {
+    margin-bottom: 1em;
+    display: block;
+  }
+  .skills-table th {
+    background: #f7f7f7;
+    border-bottom: none;
+  }
+}
 /* Larger font for the role title */
 .title-role {
   font-size: 1.2rem;
@@ -7,14 +45,14 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #393c43;
-  color: #c9d1d9;
+  background: #ffffff;
+  color: #000000;
 }
 
 header {
   text-align: center;
   padding: 50px;
-  background: #161b22;
+  background: #7eead6;
 }
 
 header h1 {
@@ -23,7 +61,7 @@ header h1 {
 }
 
 .links a {
-  color: #58a6ff;
+  color: #000000;
   margin: 0 10px;
   font-size: 1.5em;
 }
@@ -35,7 +73,7 @@ section {
 }
 
 h2 {
-  color: #58a6ff;
+  color: #006aff;
 }
 
 
@@ -52,18 +90,18 @@ h2 {
 }
 
 .project {
-  background: #161b22;
+  background: #7eead6;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
 }
 
 .project a {
-  color: #58a6ff;
+  color: #006aff;
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background: #161b22;
+  background: #c7deff;
 }
