@@ -30,18 +30,25 @@
 </section>
 
 <section class="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li><strong>Cloud Platforms:</strong> AWS, GCP</li>
-    <li><strong>Automation:</strong> Terraform, Ansible, Bash, Python</li>
-    <li><strong>Containerization:</strong> Docker, Kubernetes, Helm</li>
-    <li><strong>CI/CD:</strong> GitHub Actions, Jenkins, ArgoCD</li>
-    <li><strong>Monitoring and Logging:</strong> Prometheus, Grafana, ELK Stack</li>
-    <li><strong>Version Control:</strong> GitHub, Bitbucket</li>
-    <li><strong>Scripting:</strong> Bash, Python</li>
-    <li><strong>Server Administration:</strong> Linux, Windows</li>
-    <li><strong>Database:</strong> MySQL</li>
-  </ul>
+  <h2 id="skills-toggle" style="cursor:pointer;user-select:none;">
+    Skills <span id="skills-arrow" style="font-size:0.8em;">▼</span>
+  </h2>
+  <div id="skills-list" style="margin-top:0;">
+    <table class="skills-table">
+      <tbody>
+        <tr><th>Cloud Platforms</th><td>AWS, GCP</td></tr>
+        <tr><th>Automation</th><td>Terraform, Ansible</td></tr>
+        <tr><th>Containerization</th><td>Docker, Kubernetes, Helm</td></tr>
+        <tr><th>CI/CD</th><td>GitHub Actions, Jenkins, ArgoCD</td></tr>
+        <tr><th>Monitoring & Logging</th><td>Prometheus, Grafana, ELK Stack</td></tr>
+        <tr><th>Version Control</th><td>GitHub, Bitbucket</td></tr>
+        <tr><th>Scripting</th><td>Bash, Python</td></tr>
+        <tr><th>Server Administration</th><td>Linux (RHEL), Windows</td></tr>
+        <tr><th>Networking</th><td>TCP/IP, DNS, DHCP, VPN, HTTP/S, VPC</td></tr>
+        <tr><th>Database</th><td>MySQL</td></tr>
+      </tbody>
+    </table>
+  </div>
 </section>
 
 <section class="projects">
@@ -65,5 +72,18 @@
   <p>© 2025 Nimesha Premaraja</p>
 </footer>
 
-</body>
+<script>
+  const skillsToggle = document.getElementById('skills-toggle');
+  const skillsList = document.getElementById('skills-list');
+  const skillsArrow = document.getElementById('skills-arrow');
+  skillsToggle.addEventListener('click', () => {
+    if (skillsList.style.display === 'none') {
+      skillsList.style.display = '';
+      skillsArrow.textContent = '▼';
+    } else {
+      skillsList.style.display = 'none';
+      skillsArrow.textContent = '▲';
+    }
+  });
+</script>
 </html>
