@@ -14,7 +14,7 @@ body {
 header {
   text-align: center;
   padding: 50px;
-  background: #83b4f9;
+  background: #7eead6;
 }
 
 header h1 {
@@ -52,7 +52,7 @@ h2 {
 }
 
 .project {
-  background: #83b4f9;
+  background: #7eead6;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
