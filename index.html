@@ -55,15 +55,22 @@
   <h2>Projects</h2>
 
   <div class="project">
-    <h3>CI/CD Pipeline for Microservices</h3>
-    <p>Built a GitHub Actions pipeline deploying Dockerized services to Kubernetes using Helm.</p>
-    <a href="https://github.com/yourusername/cicd-k8s">View on GitHub</a>
+    <h3 class="project-toggle" style="cursor:pointer;user-select:none;">
+      CI/CD Pipeline for Microservices <span class="project-arrow" style="font-size:0.8em;">▼</span>
+    </h3>
+    <div class="project-details" style="display:none;">
+      <p>Built a GitHub Actions pipeline deploying Dockerized services to Kubernetes using Helm.</p>
+      <a href="https://github.com/yourusername/cicd-k8s">View on GitHub</a>
+    </div>
   </div>
 
   <div class="project">
-    <h3>Terraform AWS Infrastructure</h3>
-    <p>Provisioned VPC, EKS, ALB, IAM using Terraform modules.</p>
-    <a href="https://github.com/yourusername/terraform-aws">View on GitHub</a>
+    <h3 class="project-toggle" style="cursor:pointer;user-select:none;">
+      Setup Fortinet (fortigate) IPS solutions in Google Cloud <span class="project-arrow" style="font-size:0.8em;">▼</span>
+    </h3>
+    <div class="project-details" style="display:none;">
+      <p>Designed and implemented a Fortinet FortiGate IPS solution on Google Cloud Platform to inspect, detect, and block malicious ingress and egress traffic for Kubernetes workloads. The solution was integrated with the Kubernetes environment to provide deep packet inspection and threat prevention without impacting application performance. Network traffic flows were carefully architected to ensure high availability, fault tolerance, and minimal latency. Security policies and IPS signatures were configured to protect workloads from common vulnerabilities and attack vectors. The setup followed cloud-native networking and security best practices, ensuring secure communication between services while maintaining scalability. This project demonstrates hands-on experience in cloud security, Kubernetes networking, and enterprise-grade traffic inspection.</p>
+    </div>
   </div>
 
 </section>
@@ -84,6 +91,21 @@
       skillsList.style.display = 'none';
       skillsArrow.textContent = '▲';
     }
+  });
+
+  // Collapsible projects
+  document.querySelectorAll('.project-toggle').forEach((toggle, idx) => {
+    toggle.addEventListener('click', function() {
+      const details = this.parentElement.querySelector('.project-details');
+      const arrow = this.querySelector('.project-arrow');
+      if (details.style.display === 'none') {
+        details.style.display = '';
+        arrow.textContent = '▲';
+      } else {
+        details.style.display = 'none';
+        arrow.textContent = '▼';
+      }
+    });
   });
 </script>
 </html>
