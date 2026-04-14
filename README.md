@@ -2,7 +2,7 @@
 
 🚀 **Cloud & DevOps Engineer | Infrastructure Automation | DevSecOps**
 
-Experienced DevOps Engineer 5+ years of hands-on experience in software development and streamlining delivery processes, as demonstrated by a successful track record. Specializing in Cloud computing (AWS, GCP), Infrastructure as Code (Terraform), CI/CD, Containerization and Orchestration, Monitoring and Logging, Networking, Database management and scripting empowered using modern AI and AI Agentic capabilities.
+Experienced DevOps Engineer 5+ years of hands-on experience in software development and streamlining delivery processes (SDLC), as demonstrated by a successful track record. Specializing in Cloud computing (AWS, GCP), Infrastructure as Code (Terraform), CI/CD, Containerization and Orchestration, Monitoring and Logging, Networking, Database management and scripting empowered with modern AI and AI Agentic capabilities.
 
 ---
 
