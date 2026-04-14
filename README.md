@@ -1,12 +1,12 @@
 # Hi there 👋 I'm Nimesha Premaraja
 
-🚀 **Cloud & DevOps Engineer | Infrastructure Automation | DevSecOps**
+**DevOps | Site Reliability Engineering | Platform Engineering**
 
 Experienced DevOps Engineer 5+ years of hands-on experience in software development and streamlining delivery processes (SDLC), as demonstrated by a successful track record. Specializing in Cloud computing (AWS, GCP), Infrastructure as Code (Terraform), CI/CD, Containerization and Orchestration, Monitoring and Logging, Networking, Database management and scripting empowered with modern AI and AI Agentic capabilities.
 
 ---
 
-# ☁️ Cloud & DevOps Stack
+# Cloud & DevOps Stack
 
 - **Cloud and Infrastructure:** AWS, GCP, Linux, Kubernetes, Helm, Docker, Terraform, Ansible
 - **Programming and Scripting:** Python, Bash/Shell, PowerShell
@@ -18,7 +18,7 @@ Experienced DevOps Engineer 5+ years of hands-on experience in software developm
 
 ---
 
-# 📚 Currently Learning
+# Currently Learning
 
 * AI and AI Agentic DevOps Automation
 * AWS Advanced Architecture
@@ -28,7 +28,7 @@ Experienced DevOps Engineer 5+ years of hands-on experience in software developm
 
 ---
 
-# 🤝 Let's Connect
+# Let's Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/nimesha-premaraja-6103a0191)
 
